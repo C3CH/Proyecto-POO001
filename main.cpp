@@ -32,6 +32,7 @@ int const cantidad_prendas=3;
 main(){
     float array[cantidad_telas][cantidad_prendas]={0};
     string telas[cantidad_telas];
+    int columnas=cantidad_prendas;
     string polos, camisas, cuellos;
     string prendas[cantidad_prendas]={polos, camisas, cuellos};
     inicializar(array,telas,prendas);

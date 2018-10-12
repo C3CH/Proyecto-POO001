@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string>
 using namespace std;
 
 void inicializar(float array[],string telas[],string prendas[]){
@@ -31,8 +32,8 @@ int const cantidad_prendas=3;
 main(){
     float array[cantidad_telas][cantidad_prendas]={0};
     string telas[cantidad_telas];
+    string polos, camisas, cuellos;
     string prendas[cantidad_prendas]={polos, camisas, cuellos};
-    
     inicializar(array,telas,prendas);
     
     
